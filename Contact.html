@@ -41,7 +41,7 @@
                     </div>
                 </li>
                 <li class="nav-item"><a class="nav-link " href="Evenement.html">Dates des évenements</a></li>
-                <li class="nav-item"><a class="nav-link " href="Contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Contact.html">Contact</a></li>
             </ul>
 
         </div>
@@ -53,29 +53,36 @@
 
     <main class="container">
 
-        <h1>Qui sommes-nous ?</h1>
+    <!--Intégratio d'un Formulaire - début -->
 
-        
-        <!--Intégratio TEXT - début -->
+    <div class="row mt- 4 justify-content-center">
 
-        <div class="box_principal container">
-            <div class="row">
-                
-            </div>
-            <div class="row box_text">
-                <div class="col-9 ">
-                    <h2> C'est quoi MAP airsoft ?</h2>
-                    MAP airsoft (du nom complet " Les marsouins de l'apocalypse") est une association à but non lucratif
-                    pratiquant l'airsoft comme discipline principale.
-                </div>
-                <div class="col-9 ">
-                    <img src="" alt="">
+        <div class="form-group col-12 col-sm-9 col-md-6 box_text">
+            <h1 class="text-dark">Contactez nous</h1>
 
-                </div>
-            </div>
+
+            <label class="text-dark" for="Nom">Nom</label>
+            <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId"
+                placeholder="Votre nom">
+
+            <label class="text-dark" for="Nom">Prénom</label>
+            <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="helpId"
+                placeholder="Votre Prénom">
+
+            <label class="text-dark" for="E-mail">E-mail</label>
+            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                placeholder="Votre adresse email">
+
+            <label for="Message">Message</label>
+            <textarea class="form-control" name="massage" id="message" rows="10"
+                placeholder="Posez nous vos questions"></textarea>
+
+            <button type="submit" class="btn btn-primary mt-2 ">Envoyer</button>
+
         </div>
+    </div>
 
-        <!--Intégratio TEXT - fin -->
+        <!--Intégratio d'un Formulaire - fin -->
 
 
 
@@ -84,7 +91,7 @@
 
     </main>
 
-    <footer class="container">
+    <footer class="fixed-bottom">
         plan du site
         contact
         mention légal

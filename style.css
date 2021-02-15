@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    width: 100%;
     background-image: linear-gradient(transparent, black), url(Images/Wallpapers-textures-background_blue.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,16 +14,21 @@ main {
 }
 
 .box_text {
+    padding: 5%;
     background-color: white;
     border: solid black;
     border-radius: 10px;
+    text-justify: auto;
+}
+
+h1{
+    color: black;
 }
 
 footer {
     background-color: black;
     border-radius: 10px;
     color: white;
-    position: absolute;
-    bottom: 0;
-    padding-top: 50px;
+    padding-top: 50px;   
 }
+
