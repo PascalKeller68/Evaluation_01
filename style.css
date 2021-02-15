@@ -21,7 +21,7 @@ main {
     text-justify: auto;
 }
 
-h1{
+h1 {
     color: black;
 }
 
@@ -29,6 +29,5 @@ footer {
     background-color: black;
     border-radius: 10px;
     color: white;
-    padding-top: 50px;   
+    margin-top: 10px;
 }
-
